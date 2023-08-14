@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comment Box</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body >
+
+    <h1 class="text-center text-6xl font-bold mt-10 text-red-400 font-serif">Js Comment Box</h1>
+    <section class="w-1/3 m-auto">
+        <textarea name="" id="textArea" cols="80" rows="10" class="border border-orange-400 rounded-xl mt-20"></textarea><br>
+
+       <div class="flex justify-end">
+             <button class="btn btn-primary mr-10 mt-3" id="btn">submit</button>
+       </div>
+    </section>
+    <section class="w-1/3 m-auto" id="inject">
+        <h1 class="text-center text-4xl font-bold mt-10 text-sky-500 font-serif">All Comments</h1>
+        <p class="mt-5 text-xl font-serif text-slate-500 bg-red-200 rounded ml-2"></p>
+    </section>
+
+
+    <script src="js/comment.js"></script>
+</body>
+</html>
